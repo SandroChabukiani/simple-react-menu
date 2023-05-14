@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#oot {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(240, 205, 161), rgb(210, 202, 202));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root {
+  width: 35%;
+  height: 95%;
+  background: white;
+  border-radius: 50px;
+  border: 10px solid black;
+}
+.sacentri {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: rgba(21, 65, 21, 0.91);
+}
+.kast {
+  margin: 10px;
+  font-size: 23px;
+  padding: 13px;
+  color: rgb(2, 40, 2);
+  border: 0;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.kast:hover {
+  background: rgb(2, 40, 2);
+  color: bisque;
+}
+
+.ord {
+  color: rgb(14, 44, 14);
+  font-size: 27px;
+}
+
+.tetr {
+  width: 70%;
+  min-height: 35%;
+  height: auto;
+  background: bisque;
+  margin-left: 15%;
+  margin-bottom: 9%;
+  border: 7px solid black;
+  border-radius: 50px;
+}
+.wash {
+  color: rgb(52, 49, 49);
+  margin-left: 15%;
+}
+
+.dr {
+  text-decoration: none;
+  color: rgba(21, 65, 21, 0.91);
+  font-size: 19px;
+  display: flex;
+}
+@media (max-width: 1770px) {
+  #oot {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(240, 205, 161), rgb(210, 202, 202));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #root {
+    width: 40%;
+    height: 97%;
+    background: white;
+    border-radius: 50px;
+    border: 10px solid black;
+  }
+  .sacentri {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    color: rgba(21, 65, 21, 0.91);
+  }
+  .kast {
+    margin: 9px;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(2, 40, 2);
+    border: 0;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .kast:hover {
+    background: rgb(2, 40, 2);
+    color: bisque;
+  }
+
+  .ord {
+    color: rgb(14, 44, 14);
+    font-size: 27px;
+  }
+
+  .tetr {
+    width: 70%;
+    min-height: 35%;
+    height: auto;
+    background: bisque;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: 7px solid black;
+    border-radius: 50px;
+  }
+  .wash {
+    color: rgb(52, 49, 49);
+    margin-left: 4%;
+    font-size: 13px;
+  }
+
+  .dr {
+    text-decoration: none;
+    color: rgba(21, 65, 21, 0.91);
+    font-size: 25px;
+    display: flex;
+  }
+}
+@media (max-width: 1340px) {
+  #oot {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(240, 205, 161), rgb(210, 202, 202));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #root {
+    width: 45%;
+    height: 90%;
+    background: white;
+    border-radius: 50px;
+    border: 10px solid black;
+  }
+  .sacentri {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    color: rgba(21, 65, 21, 0.91);
+  }
+  .kast {
+    margin: 7px;
+    font-size: 25px;
+    padding: 8px;
+    color: rgb(2, 40, 2);
+    border: 0;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .kast:hover {
+    background: rgb(2, 40, 2);
+    color: bisque;
+  }
+
+  .ord {
+    color: rgb(14, 44, 14);
+    font-size: 27px;
+  }
+
+  .tetr {
+    width: 70%;
+    min-height: 35%;
+    height: auto;
+    background: bisque;
+    margin-left: 15%;
+    margin-top: 10%;
+    border: 7px solid black;
+    border-radius: 50px;
+  }
+  .wash {
+    color: rgb(52, 49, 49);
+    font-size: 13px;
+  }
+
+  .dr {
+    text-decoration: none;
+    color: rgba(21, 65, 21, 0.91);
+    font-size: 25px;
+    display: flex;
+  }
+}
+@media (min-width: 760px) {
+  .dr {
+    margin-right: 15%;
+    text-decoration: none;
+    color: rgba(21, 65, 21, 0.91);
+    font-size: 15px;
+    display: flex;
+  }
+}
+@media (max-width: 760px) {
+  .dr {
+    margin-right: 15%;
+    text-decoration: none;
+    color: rgba(21, 65, 21, 0.91);
+    font-size: 15px;
+    display: flex;
+  }
+}
